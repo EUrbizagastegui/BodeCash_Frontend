@@ -2,3 +2,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+.input-icon {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle; /* Asegura que el ícono esté alineado verticalmente con el texto */
+}
+
+.input-icon .pi {
+  font-size: 1em; /* Ajusta el tamaño del icono si es necesario */
+  line-height: 1; /* Asegura que el ícono tenga la misma altura de línea que el texto */
+}
