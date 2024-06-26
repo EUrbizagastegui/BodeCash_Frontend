@@ -1,0 +1,27 @@
+.home-nav {
+    width: 100%;
+    margin-bottom: auto;
+}
+.product-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    margin-bottom: auto;
+}
+.buy-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+.product-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: auto;
+    gap: 1em;
+}

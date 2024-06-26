@@ -1,0 +1,36 @@
+.crear-credito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cc-center {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.cc-center h1 {
+    margin-block: 1em;
+}
+.home-nav {
+    width: 100%;
+}
+.p-fluid {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.isPP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.isPG {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 1em;
+}

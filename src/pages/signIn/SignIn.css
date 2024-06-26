@@ -1,21 +1,31 @@
 .sign-in {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
     min-height: 100dvh;
-}
-.si-left {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.si-right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.margin-body {
-    display: flex;
-    flex-direction: column;
-    gap: 3em;
-    width: 60%;
-}
+ }
+ .si-left {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #06b6d4;
+     min-height: 100dvh;
+ }
+ .sill {
+     width: 60%;
+     display: flex;
+     flex-direction: column;
+     gap: 1em;
+ }
+ .si-right {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .sir-body {
+     width: 40%;
+     display: flex;
+     flex-direction: column;
+     gap: 1em;
+ }

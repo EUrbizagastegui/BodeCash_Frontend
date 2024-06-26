@@ -1,0 +1,29 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+}
+.home-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    min-height: 100dvh;
+    background-color: #0dc7e8
+}
+.hb-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 45%;
+    min-height: 100dvh;
+}
+.home-nav {
+  width: 100%;
+}
